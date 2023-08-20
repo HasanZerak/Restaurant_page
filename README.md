@@ -24,3 +24,9 @@
     - `--watch`, so that we won't have to re-run `npx webpack` over and over again. 
     - since, we are using `--watch`, the browser still need to be reloaded after every save.
 
+7. Creat a bare bones homepage for a restaurant using JavaScript.
+    - create each element using: 
+    > `const NameofElement = document.createElement("element");`
+    - then `append` each to it's corresponding sub-div. 
+
+8. `Export` initialPageLoad function, `import` it in _index.js_ and run the function.

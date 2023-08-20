@@ -1,1 +1,4 @@
-console.log(`This message is being called from index.js`);
+// console.log(`This message is being called from index.js`);   // test
+import { initialPageLoad } from "./initial-pageload";
+
+initialPageLoad();
