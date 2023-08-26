@@ -30,3 +30,19 @@
     - then `append` each to it's corresponding sub-div. 
 
 8. `Export` initialPageLoad function, `import` it in _index.js_ and run the function.
+
+9. Install CSS and Style loader, and add the following to webpack.config.js:
+   ```
+   module: {
+      rules: [
+         {
+         test: /\.css$/i,
+         use: ["style-loader", "css-loader"],
+         },
+      ],
+   },
+   ```
+   > add a test to _main.css_
+   > import _main.css_ in _index.js_
+   > in _index.html_ change script source to _bundle.js_
+   > `npx webpack --watch`

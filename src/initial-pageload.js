@@ -12,7 +12,7 @@ export function initialPageLoad() {
     header.appendChild(menu); // append menu header
     
     const about = document.createElement("button"); // nav bar button
-    about.textContent = `about`;    // add text content to about
+    about.textContent = `about test`;    // add text content to about
     header.appendChild(about);  // append about to header
     
     const contactUs = document.createElement("button"); // nav bar button
