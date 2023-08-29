@@ -1,0 +1,38 @@
+.foodImages{
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
+}
+/* 
+.backImage{
+    height: 400px;
+    width: 400px;
+} */
+
+.middleContent{
+    display: flex;
+    flex-direction: row;
+    margin: 0 1.5rem;
+}
+
+.mainDisplayContent{
+    background-image: url("/src/assets/splash.png");
+    background-size: cover;
+    
+    margin: 0 auto;
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* .mainDisplayContentText{
+    margin-right: auto;
+} */
+
+.mainDisplayContentSocial{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 2.5rem;
+}

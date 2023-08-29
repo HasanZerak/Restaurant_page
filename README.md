@@ -46,3 +46,10 @@
    > import _main.css_ in _index.js_
    > in _index.html_ change script source to _bundle.js_
    > `npx webpack --watch`
+
+10. Create and seperate Javascript and CSS files:
+   - _about.js_ and _about.css_. Import _about.js_ in  _index.js_ and _about.css_ in  _about.js_. 
+   - _contact.js_ and _contact.css_. Import _contact.js_ in  _index.js_ and _contact.css_ in  _contact.js_. 
+   - _menu.js_ and _menu.css_. Import _menu.js_ in  _index.js_ and _menu.css_ in  _menu.js_.
+   - add appropriate styles and to each CSS file and create all DOM elements using JS.
+   - With this all files are now connected and can be used. 

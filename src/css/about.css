@@ -1,0 +1,33 @@
+.blob{
+    height: 600px;
+    width: 700px;
+    border-radius: 34% 66% 25% 75% / 49% 48% 52% 51% ;
+    background-color: red;
+    margin-top: 4rem;
+    margin-left: -10rem;
+    transform: rotate(10deg);
+    z-index: -1;
+}
+
+#content{
+    display: grid;
+    grid-template-columns: 0 1fr 1fr;
+}
+
+.image{
+    object-fit: contain;
+    max-width: 30rem;
+    height: 30ren;
+    justify-self: center;
+    align-self: center;
+}
+
+.text{
+    padding: 2rem 0 0 12rem;
+    margin-top: -12rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    text-align: justify;
+}

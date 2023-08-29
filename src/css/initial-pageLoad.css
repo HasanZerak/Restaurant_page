@@ -1,0 +1,14 @@
+@import "./header.css"; 
+@import "./notHeader.css"; 
+
+html, body{
+    height: 100vh;
+    overflow: hidden;
+    box-sizing: border-box;
+}
+
+#content{
+    display: flex;
+    min-height: 100%;
+    flex-direction: column;
+}
