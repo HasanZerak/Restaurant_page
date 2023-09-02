@@ -1,12 +1,13 @@
 .header{
+    margin: 0 1rem;
+    width: 95%;
     display: flex;
-    justify-content: space-between;
     align-items: center;
-    padding: 0 2rem;
+    
 }
 
 .headerButtons{
+    margin-left: auto;
     display: flex;
     gap: 8rem;
-    margin-right: 3%;
 }

@@ -1,7 +1,10 @@
 import './css/about.css';
 export function about(){
     
-    const container = document.querySelector("#content");   // <div id = "content"></div>;
+    // const content = document.querySelector("#content");   // <div id = "content"></div>;
+
+    const container = document.createElement("div");
+    document.body.appendChild(container);
     container.classList.add("container");
     
     const blob = document.createElement("div");

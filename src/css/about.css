@@ -1,6 +1,6 @@
 .blob{
-    height: 600px;
-    width: 700px;
+    height: 500px;
+    width: 600px;
     border-radius: 34% 66% 25% 75% / 49% 48% 52% 51% ;
     background-color: red;
     margin-top: 4rem;
@@ -9,7 +9,7 @@
     z-index: -1;
 }
 
-#content{
+.container{
     display: grid;
     grid-template-columns: 0 1fr 1fr;
 }
