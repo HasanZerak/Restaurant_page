@@ -1,14 +1,15 @@
-@import "./notHeader.css"; 
+@import "./notHeader.css";
 /* @import "./header.css";  */
 
-html, body{
-    height: 100vh;
-    overflow: hidden;
-    box-sizing: border-box;
+html,
+body {
+  height: 100vh;
+  overflow: hidden;
+  box-sizing: border-box;
 }
 
-.contentDiv{
-    display: flex;
-    min-height: 100%;
-    flex-direction: column;
+.contentDiv {
+  display: flex;
+  min-height: 100%;
+  flex-direction: column;
 }
