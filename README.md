@@ -52,24 +52,41 @@
    - _contact.js_ and _contact.css_. Import _contact.js_ in  _index.js_ and _contact.css_ in  _contact.js_.
       - embed a map using:
          ### HTML 
-         > `<div class="google-map">`
-         > `<iframe src="[your unique google URL] " width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>`
-         > `</div>`
+         ```
+         <div class="google-map">
+         <iframe src="[your unique google URL] " width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+         </div>
+         ```
          ### CSS
-         > `.google-map {`
-            > `padding-bottom: 50`%;
-            > `position: relative;`
-         > `}`
+         ```
+         .google-map {
+            padding-bottom: 50%;
+            position: relative;
+         }
 
-         > `.google-map iframe` {
-            > `height: 100%;`
-            > `width: 100%;`
-            > `left: 0;`
-            > `top: 0;`
-            > `position: absolute;`
-         > `}`
+         .google-map iframe {
+            height: 100%;
+            width: 100%;
+            left: 0;
+            top: 0;
+            position: absolute;
+         }
+         ```
          **This makes the map responsive**
 
    - _menu.js_ and _menu.css_. Import _menu.js_ in  _index.js_ and _menu.css_ in  _menu.js_.
    - add appropriate styles and to each CSS file and create all DOM elements using JS.
    - With this all files are now connected and can be used. 
+
+11. **Bug Fixed**: 
+   - Instead of creating header elements with js, a list was added. 
+   - Create a IIFE called 
+      >  `const tabSwitch = (() => {})();` 
+      - This functions add event listerner to each tab and loads it's correspondind tab.
+      - Before loading a new tab, contents of `<div id = "content">` are removed, using: 
+      ```
+         const erase = document.querySelector("#content");
+         erase.innerHTML = "";
+      ```
+
+12. Website is now almost ready, all that's left to do now is add styling to the website. 

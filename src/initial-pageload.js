@@ -1,13 +1,13 @@
 import "./css/initial-pageLoad.css";
 
 export function initialPageLoad() {
-  // const contentDiv = document.querySelector("#content"); // <div id = "content"></div>;
+  const contentInitialPageLoad = document.querySelector("#content"); // <div id = "content"></div>;
 
   /*-------------------------------------------middle-------------------------------------------*/
 
   const middleContent = document.createElement("div"); // div for middle content, i.e. the content that is visible to the user.
   middleContent.classList.add("middleContent");
-  document.body.appendChild(middleContent); // append middleContent div to header
+  contentInitialPageLoad.appendChild(middleContent); // append middleContent div to header
 
   const mainDisplayContent = document.createElement("div"); // content that will be displayed on the left.
   mainDisplayContent.classList.add("mainDisplayContent");
