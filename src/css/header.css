@@ -1,6 +1,10 @@
 .header {
-  margin: 0 1rem;
-  width: 95%;
+  font-family: "Lemonmilk-regular";
+  letter-spacing: 2px;
+  line-height: 2rem;
+  font-size: 12px;
+
+  margin: 0rem 4rem;
   display: flex;
   align-items: center;
 }
@@ -9,5 +13,21 @@
   margin-left: auto;
   display: flex;
   flex-direction: row;
-  gap: 8rem;
+  gap: 6rem;
+}
+
+.header > p{
+  letter-spacing: 8px;
+  font-size: 24px;
+}
+
+.headerButtons li {
+  padding: 0 8px;
+  cursor: pointer;
+}
+
+.headerButtons li:last-of-type {
+  color: #f5f4f6;
+  background-color: #385257;
+  border-radius: 2px;
 }

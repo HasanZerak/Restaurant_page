@@ -90,3 +90,13 @@
       ```
 
 12. Website is now almost ready, all that's left to do now is add styling to the website. 
+    - Font used:
+      1. **Lemon Milk** and it's most suitable type faces.
+    - Colors used:
+      1. **#17223a**: Text. 
+      2. **#f5f4f6**: Background. 
+      3. **#b4cbcf**: Blob. 
+      4. **#385257**: Dark Text Background. 
+
+13. Styling:
+   - Add design and style to the _Home Page_.

@@ -1,5 +1,55 @@
 /*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
 
+/* Fonts */
+@font-face {
+  font-family: "Lemonmilk-light";
+  src: url("../assets/fonts/lemon_milk/LEMONMILK-Light.otf");
+}
+@font-face {
+  font-family: "Lemonmilk-bold";
+  src: url("../assets/fonts/lemon_milk/LEMONMILK-Bold.otf");
+}
+@font-face {
+  font-family: "Lemonmilk-boldItalic";
+  src: url("../assets/fonts/lemon_milk/LEMONMILK-BoldItalic.otf");
+}
+@font-face {
+  font-family: "Lemonmilk-lightItalic";
+  src: url("../assets/fonts/lemon_milk/LEMONMILK-LightItalic.otf");
+}
+@font-face {
+  font-family: "Lemonmilk-medium";
+  src: url("../assets/fonts/lemon_milk/LEMONMILK-Medium.otf");
+}
+@font-face {
+  font-family: "Lemonmilk-mediumItalic";
+  src: url("../assets/fonts/lemon_milk/LEMONMILK-MediumItalic.otf");
+}
+@font-face {
+  font-family: "Lemonmilk-regular";
+  src: url("../assets/fonts/lemon_milk/LEMONMILK-Regular.otf");
+}
+@font-face {
+  font-family: "Lemonmilk-regularItalic";
+  src: url("../assets/fonts/lemon_milk/LEMONMILK-RegularItalic.otf");
+}
+@font-face {
+  font-family: "saonara1";
+  src: url("../assets/fonts/made_saonara/MADE\ SAONARA\ PERSONAL\ USE.otf");
+}
+@font-face {
+  font-family: "saonara2";
+  src: url("../assets/fonts/made_saonara/MADE\ SAONARA\ 2\ PERSONAL\ USE.otf");
+}
+@font-face {
+  font-family: "rightland";
+  src: url("../assets/fonts/rightland/Rightland.otf");
+}
+@font-face {
+  font-family: "gloss";
+  src: url("../assets/fonts/gloss_and_bloom/Gloss_And_Bloom.ttf");
+}
+
 /* Document
    ========================================================================== */
 
@@ -8,7 +58,7 @@
  * 2. Prevent adjustments of font size after orientation changes in iOS.
  */
 
- html {
+html {
   line-height: 1.15; /* 1 */
   -webkit-text-size-adjust: 100%; /* 2 */
 }
@@ -22,6 +72,8 @@
 
 body {
   margin: 0;
+  background-color: #eae9ec;
+  color: #17223a;
 }
 
 /**
@@ -174,7 +226,8 @@ textarea {
  */
 
 button,
-input { /* 1 */
+input {
+  /* 1 */
   overflow: visible;
 }
 
@@ -184,7 +237,8 @@ input { /* 1 */
  */
 
 button,
-select { /* 1 */
+select {
+  /* 1 */
   text-transform: none;
 }
 
