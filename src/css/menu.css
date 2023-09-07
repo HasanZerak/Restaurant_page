@@ -6,7 +6,7 @@
     text-align: center;
     width: 56%;
     margin: 0 auto;
-    padding-bottom: 8px;
+    /* padding-bottom: 6px; */
 
     /* border-top: 2px solid black; */
     border-bottom: 1px solid #405e64;
@@ -38,6 +38,6 @@
     font-family: 'Merriweather';
     font-weight: 400;
     font-style: italic;
-    line-height: 1.5;
+    line-height: 1.7;
     font-size: 14px;
 }

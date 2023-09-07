@@ -4,7 +4,8 @@ import { about } from "./about";
 import { menu } from "./menu";
 import { contact } from "./contact";
 
-initialPageLoad();
+// initialPageLoad();
+about();
 
 const erase = document.querySelector("#content");
 
