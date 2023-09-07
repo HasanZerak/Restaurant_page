@@ -100,3 +100,4 @@
 
 13. Styling:
    - Add design and style to the _Home Page_.
+   - Add design and style to the _Menu Page_.
