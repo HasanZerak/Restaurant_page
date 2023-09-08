@@ -1,4 +1,4 @@
-import "./css/main.css";
+import "./css/main.css"; 
 import { initialPageLoad } from "./initial-pageload";
 import { about } from "./about";
 import { menu } from "./menu";

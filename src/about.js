@@ -1,4 +1,6 @@
 import "./css/about.css";
+import restaurantImage from "./assets/restro.jpg";
+
 export function about() {
   const contentAbout = document.querySelector("#content"); // <div id = "content"></div>;
 
@@ -26,9 +28,9 @@ export function about() {
   aboutContentPara2.textContent = `Pulvinar sapien et ligula ullamcorper malesuada proin. Libero justo laoreet sit amet. Lacinia quis vel eros donec ac odio tempor orci. At elementum eu facilisis sed. Volutpat consequat mauris nunc congue nisi vitae suscipit. Sit amet consectetur adipiscing elit ut.`;
   text.appendChild(aboutContentPara2);
 
-  const image = document.createElement("img");
+  const image = new Image();
   image.classList.add("image");
-  image.src = "../src/assets/restro.jpg";
+  image.src = restaurantImage;
   image.alt = "image";
   containerAbout.appendChild(image);
 }
