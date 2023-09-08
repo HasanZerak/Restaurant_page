@@ -13,7 +13,7 @@ export function contact() {
   containerContact.appendChild(address);
 
   const contactNumber = document.createElement("p");
-  contactNumber.textContent = `123-456-78-89`;
+  contactNumber.textContent = `(123)-456-78-89`;
   address.appendChild(contactNumber);
 
   const contactAddress = document.createElement("div");
@@ -103,7 +103,7 @@ export function contact() {
   containerContact.appendChild(footer);
 
   const footerText = document.createElement("p");
-  footerText.textContent = `Probably the best restaurant you will ever visit`;
+  footerText.textContent = `Probably the best restaurant you will ever visit!!!`;
   footerText.classList.add("footer");
   footer.appendChild(footerText);
 }

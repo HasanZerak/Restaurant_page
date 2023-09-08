@@ -94,7 +94,7 @@
       1. **Lemon Milk** and it's most suitable type faces.
     - Colors used:
       1. **#17223a**: Text. 
-      2. **#f5f4f6**: Background. 
+      2. **#eae9ec**: Background. 
       3. **#b4cbcf**: Blob. 
       4. **#385257**: Dark Text Background. 
 
@@ -102,3 +102,4 @@
    - Add design and style to the _Home Page_.
    - Add design and style to the _Menu Page_.
    - Add design and style to the _About Page_.
+   - Add design and style to the _Contact Page_.

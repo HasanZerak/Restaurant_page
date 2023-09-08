@@ -21,7 +21,8 @@
     font-size: 30px;
     text-align:center;
     text-decoration:none;
-    color:#404040;
+    /* color:#404040; */
+    color:#eae9ec;;
     margin: 0 30px;
     transition:.5s;
   }
@@ -33,7 +34,8 @@
   .social ul li a span:nth-child(3){
     width:100%;
     height:3px;
-    background:#404040;
+    /* background:#404040; */
+    background:#eae9ec;;
   }
   .social ul li a span:nth-child(1) {
     top:0;
@@ -122,20 +124,40 @@
 
   /*-------------------------------------------------Content---------------------------------------------*/
   .containerContact{
+    background-color: #385257;
+    color: #eae9ec;
+
+    text-align: center;
     display: flex;
-    height: calc(100vh - 50px);
+    height: calc(100vh - 105px);
     flex-direction: column;
     align-items: center;
     gap: 3rem; 
   }
 
   .address{
-    text-align: center;
-    margin-top: 6%;
+    margin-top: 2%;
+    font-family: 'Lemonmilk-bold';
+  }
+
+  .address p:first-of-type{
+    font-size: 48px;
+    letter-spacing: 8px;
+    margin-bottom: 24px;
+  }
+
+  .address div:first-of-type{
+    font-family: 'Quicksand';
+    font-weight: 500;
+    font-size: 16px;
+    letter-spacing: 4px;
   }
 
   .containerContact > div:nth-child(2){
-    text-align: center;
+    font-family: 'Lemonmilk-regular';
+    font-size: 14px;
+    letter-spacing: 2px;
+    line-height: 1.5;
   }
 
   .social{
@@ -143,12 +165,12 @@
   }
 
   .footer{
-    background-color: black;
-    color: white;
+    background-color: #eae9ec;
+    font-family: 'Lemonmilk-regular';
+    color: #385257;
     display: flex;
     justify-content: center;
     align-items: center;
-    vertical-align: middle;
-    height: 6rem;
+    height: 4rem;
     width: 100%;
   }
